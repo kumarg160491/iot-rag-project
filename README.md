@@ -6,13 +6,13 @@ A production-style Retrieval Augmented Generation (RAG) system that combines IoT
 Tech Stack
 =============
 Layer                               Tool
-LLM                                 Llama 3.2 via Ollama
-Embeddings                          nomic-embed-text via Ollama
-Vector Database                     ChromaDB (local persistent)
-RAG Framework                       LangChain
-UI                                  Streamlit
-Package Manager                     UV
-Language                            Python 3.12
+LLM: Llama 3.2 via Ollama
+Embeddings: nomic-embed-text via Ollama
+Vector Database: ChromaDB (local persistent)
+RAG Framework: LangChain
+UI: Streamlit
+Package Manager: UV
+Language: Python 3.12
 
 Problem Statement
 ==================
