@@ -1,0 +1,38 @@
+INDUSTRIAL COMPRESSOR MANUAL
+Model: CP-2000 Series
+Manufacturer: AirTech Industries
+
+SECTION 1 - NORMAL OPERATING PARAMETERS
+- Inlet Pressure  : 14.5 PSI (atmospheric)
+- Outlet Pressure : 160 to 185 PSI (normal operating)
+- Pressure Warning: below 140 PSI or above 200 PSI
+- Temperature     : 70 to 90 degree C (normal)
+- Oil Level       : between MIN and MAX mark on dipstick
+- RPM             : 1450 to 1500 RPM
+
+SECTION 2 - FAULT CODES
+Fault Code CP-01: Pressure Drop
+  Cause: Air leak in pipeline, faulty pressure relief valve, worn piston rings
+  Symptoms: Output pressure drops below 140 PSI suddenly
+  Action: Inspect all pipeline joints. Check pressure relief valve. Measure piston ring gap.
+
+Fault Code CP-05: High Discharge Temperature
+  Cause: Insufficient cooling, high ambient temperature, dirty cooler
+  Symptoms: Discharge temperature above 100 degree C
+  Action: Clean intercooler and aftercooler fins. Check cooling water flow.
+
+Fault Code CP-12: Oil Contamination in Air Line
+  Cause: Worn piston rings, excessive oil level, wrong oil grade
+  Symptoms: Oil mist in compressed air output
+  Action: Replace piston rings. Check and correct oil level. Use recommended oil grade CP-VG100.
+
+Fault Code CP-18: Compressor Surge
+  Cause: Sudden drop in flow demand, inlet valve malfunction
+  Symptoms: Rapid pressure fluctuation, unusual noise
+  Action: Check inlet valve operation. Install anti-surge control if not present.
+
+SECTION 3 - MAINTENANCE SCHEDULE
+- Daily   : Check oil level, drain moisture from receiver tank
+- Weekly  : Inspect belts, clean air filter
+- Monthly : Change oil filter, check safety valve
+- Yearly  : Replace piston rings, full overhaul

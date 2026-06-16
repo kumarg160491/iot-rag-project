@@ -1,0 +1,36 @@
+MASTER FAULT CODE DATABASE
+Plant: Bengaluru Manufacturing Unit
+Last Updated: 2024
+
+MOTOR FAULT CODES
+-----------------
+E-01 | Overheat          | Risk: High     | Stop motor. Check cooling fan and ventilation.
+E-10 | Overload          | Risk: High     | Reduce load. Check for mechanical obstruction.
+E-21 | Insulation Fault  | Risk: Critical | Isolate immediately. Do not restart. Call electrician.
+E-33 | Vibration High    | Risk: Medium   | Check mounting bolts. Inspect coupling alignment.
+E-47 | Bearing Wear      | Risk: High     | Lubricate bearing. Schedule replacement within 4 hours.
+E-52 | Belt Misalignment | Risk: Medium   | Realign belt and pulleys. Replace worn belt.
+E-63 | Phase Imbalance   | Risk: High     | Check incoming power phases. Contact electrician.
+E-75 | Shaft Seal Leak   | Risk: Medium   | Replace shaft seal. Clean spilled lubricant.
+
+COMPRESSOR FAULT CODES
+----------------------
+CP-01 | Pressure Drop       | Risk: High     | Check pipeline for leaks. Inspect pressure relief valve.
+CP-05 | High Temperature    | Risk: High     | Clean cooler fins. Check cooling water flow.
+CP-12 | Oil in Air Line     | Risk: Medium   | Replace piston rings. Correct oil level.
+CP-18 | Surge               | Risk: Critical | Stop compressor. Check inlet valve.
+CP-24 | Low Oil Pressure    | Risk: Critical | Stop immediately. Check oil pump and oil level.
+CP-31 | Intercooler Fouling | Risk: Medium   | Clean intercooler. Schedule maintenance.
+
+CONVEYOR FAULT CODES
+--------------------
+CV-01 | Belt Slip      | Risk: Medium   | Increase belt tension. Check drive pulley lagging.
+CV-08 | Motor Overload | Risk: High     | Check for material blockage. Reduce feed rate.
+CV-15 | Tracking Error | Risk: Medium   | Adjust belt tracking screws. Check pulley alignment.
+CV-22 | Emergency Stop | Risk: Critical | Inspect all E-stop buttons. Check safety relay.
+
+SENSOR FAULT CODES
+------------------
+SN-01 | Sensor Offline     | Risk: Low    | Check sensor power and cable. Replace if faulty.
+SN-05 | Reading Out Range  | Risk: Medium | Calibrate sensor. Verify installation position.
+SN-09 | Communication Loss | Risk: Medium | Check network connection. Restart sensor gateway.

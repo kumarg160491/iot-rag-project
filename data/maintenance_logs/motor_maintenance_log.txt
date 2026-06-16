@@ -1,0 +1,64 @@
+MOTOR MAINTENANCE LOG
+Equipment: Motors IM-Series 3000
+Location: Bengaluru Manufacturing Unit - Line A
+
+LOG ENTRY - 2024-01-15
+Equipment ID : Motor-7
+Fault Code   : E-52, E-47
+Reported By  : Operator Rajan
+Symptoms     : Vibration 8.5 mm/s, Temperature 88 degree C, Unusual grinding noise
+Root Cause   : Belt misalignment combined with early stage bearing wear
+Action Taken : Belt realigned and tensioned to 450 N. Bearing lubricated with Shell Alvania EP2.
+Parts Used   : Belt tension gauge, Shell Alvania EP2 grease 200g
+Resolution   : Vibration reduced to 2.8 mm/s. Temperature normalized to 62 degree C.
+Downtime     : 2.5 hours
+Technician   : Suresh Kumar
+
+LOG ENTRY - 2024-02-03
+Equipment ID : Motor-12
+Fault Code   : E-10
+Reported By  : AIOps Alert System
+Symptoms     : Current draw 140 percent of rated load for 15 minutes continuously
+Root Cause   : Material jam in connected conveyor causing mechanical overload
+Action Taken : Cleared material blockage in conveyor. Motor inspected and restarted.
+Parts Used   : None
+Resolution   : Current draw normalized to 98 percent of rated load.
+Downtime     : 45 minutes
+Technician   : Arjun Mehta
+
+LOG ENTRY - 2024-03-20
+Equipment ID : Motor-3
+Fault Code   : E-01
+Reported By  : Temperature sensor alert
+Symptoms     : Temperature 95 degree C, Cooling fan not running
+Root Cause   : Cooling fan motor failed due to capacitor failure
+Action Taken : Replaced cooling fan capacitor. Cleaned ventilation slots.
+Parts Used   : Capacitor 40uF 450V
+Resolution   : Temperature dropped to 58 degree C within 20 minutes of repair.
+Downtime     : 1.5 hours
+Technician   : Suresh Kumar
+
+LOG ENTRY - 2024-04-11
+Equipment ID : Motor-7
+Fault Code   : E-47
+Reported By  : Vibration sensor alert
+Symptoms     : Vibration 6.2 mm/s, Temperature 78 degree C
+Root Cause   : Bearing reached end of service life. Last replaced 3 years ago.
+Action Taken : Replaced drive end bearing SKF 6308. Shaft alignment verified.
+Parts Used   : SKF 6308 bearing, Shell Alvania EP2 grease
+Resolution   : Vibration reduced to 1.9 mm/s. Temperature 55 degree C.
+Downtime     : 4 hours
+Technician   : Arjun Mehta
+Note         : Motor-7 has recurring bearing issues. Recommend quarterly vibration checks.
+
+LOG ENTRY - 2024-06-05
+Equipment ID : Motor-9
+Fault Code   : E-63
+Reported By  : Electrical panel alert
+Symptoms     : Phase C voltage 10 percent lower than Phase A and B. Motor overheating.
+Root Cause   : Loose terminal connection on Phase C in main distribution panel
+Action Taken : Tightened Phase C terminal. Verified voltage balance across all phases.
+Parts Used   : None
+Resolution   : Phase balance within 1 percent. Motor temperature normal.
+Downtime     : 30 minutes
+Technician   : Electrician Venkat

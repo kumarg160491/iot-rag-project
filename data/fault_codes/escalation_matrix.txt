@@ -1,0 +1,25 @@
+FAULT ESCALATION MATRIX
+Plant: Bengaluru Manufacturing Unit
+
+RISK LEVEL DEFINITIONS
+- Low      : Monitor only. Log in system. No immediate action required.
+- Medium   : Attend within 8 hours. Notify shift supervisor.
+- High     : Attend within 4 hours. Notify maintenance manager.
+- Critical : Immediate shutdown. Notify plant manager and safety officer.
+
+ESCALATION CONTACTS
+- Shift Supervisor    : Available on plant radio channel 3
+- Maintenance Manager : Available 06:00 to 22:00
+- Plant Manager       : Available for Critical faults only
+- OEM Support Hotline : For warranty equipment faults
+
+RESPONSE TIME TARGETS
+- Critical : 15 minutes response, 1 hour resolution
+- High     : 1 hour response, 4 hour resolution
+- Medium   : 4 hour response, 8 hour resolution
+- Low      : Next shift response, 24 hour resolution
+
+DOCUMENTATION REQUIREMENTS
+- All faults must be logged in maintenance management system
+- Root cause analysis required for all High and Critical faults
+- Repeat faults within 30 days require engineering review

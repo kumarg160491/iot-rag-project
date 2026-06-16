@@ -1,0 +1,40 @@
+PREVENTIVE MAINTENANCE SCHEDULE
+Plant: Bengaluru Manufacturing Unit
+Year: 2024
+
+MONTHLY TASKS - ALL MOTORS
+- Check and record vibration readings for all motors
+- Check bearing temperature with infrared gun
+- Inspect belt condition and tension
+- Lubricate bearings as per lubrication chart
+- Check coupling alignment
+- Clean motor body and ventilation slots
+- Record current draw and compare with baseline
+
+MONTHLY TASKS - ALL COMPRESSORS
+- Check and change oil filter
+- Drain and inspect receiver tank for moisture and corrosion
+- Check safety relief valve operation
+- Inspect all pipe joints for leaks with soap solution
+- Record inlet and outlet pressure readings
+- Check intercooler condition
+
+QUARTERLY TASKS
+- Full vibration analysis with spectrum analyzer
+- Thermography scan of all electrical panels
+- Oil sample analysis for all compressors
+- Alignment check for all coupled equipment
+- Calibration of all pressure and temperature sensors
+
+ANNUAL TASKS
+- Full motor overhaul for motors running more than 8000 hours
+- Compressor piston ring replacement
+- Replace all V-belts regardless of condition
+- Full electrical insulation test with megger
+- Update equipment history cards
+
+CRITICAL EQUIPMENT LIST - PRIORITY MAINTENANCE
+1. Compressor-1  : Main air supply - no backup available
+2. Motor-7       : Line A main drive - high historical fault rate
+3. Motor-12      : Line B main drive - no backup available
+4. Compressor-3  : Backup air supply - must be ready at all times

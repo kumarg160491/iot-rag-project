@@ -1,0 +1,40 @@
+COMPRESSOR MAINTENANCE LOG
+Equipment: CP-2000 Series Compressors
+Location: Bengaluru Manufacturing Unit - Utility Block
+
+LOG ENTRY - 2024-01-28
+Equipment ID : Compressor-3
+Fault Code   : CP-01
+Reported By  : Pressure sensor alert
+Symptoms     : Output pressure dropped from 175 PSI to 118 PSI within 5 minutes
+Root Cause   : Air leak at flange joint between compressor outlet and main header pipe
+Action Taken : Replaced flange gasket. Retightened bolts to 80 Nm torque.
+Parts Used   : Spiral wound gasket 4 inch 150 class
+Resolution   : Pressure restored to 172 PSI. No further pressure drop.
+Downtime     : 3 hours
+Technician   : Suresh Kumar
+
+LOG ENTRY - 2024-02-19
+Equipment ID : Compressor-1
+Fault Code   : CP-05
+Reported By  : Temperature sensor alert
+Symptoms     : Discharge temperature 112 degree C, Intercooler outlet temperature high
+Root Cause   : Intercooler fins blocked by dust and oil deposits
+Action Taken : Cleaned intercooler fins with degreaser and compressed air. Verified cooling water flow.
+Parts Used   : Industrial degreaser 2 litres
+Resolution   : Discharge temperature reduced to 82 degree C.
+Downtime     : 2 hours
+Technician   : Arjun Mehta
+
+LOG ENTRY - 2024-05-07
+Equipment ID : Compressor-3
+Fault Code   : CP-12
+Reported By  : Quality inspection team
+Symptoms     : Oil mist detected in compressed air output line
+Root Cause   : Worn piston rings allowing oil to pass into air stream
+Action Taken : Replaced piston rings set. Checked and corrected oil level to midpoint.
+Parts Used   : Piston ring set CP-2000 OEM
+Resolution   : Air quality test passed. No oil detected in output.
+Downtime     : 8 hours
+Technician   : Suresh Kumar
+Note         : Compressor-3 piston rings wore earlier than expected. Check oil grade being used.

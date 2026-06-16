@@ -1,0 +1,49 @@
+INDUSTRIAL MOTOR OPERATING MANUAL
+Model: IM-Series 3000
+Manufacturer: IndustrialTech Systems
+
+SECTION 1 - NORMAL OPERATING PARAMETERS
+- Vibration Range      : 0 to 3 mm/s (normal)
+- Vibration Warning    : 3 to 5 mm/s
+- Vibration Critical   : above 5 mm/s
+- Temperature Range    : 40 to 65 degree C (normal)
+- Temperature Warning  : 65 to 80 degree C
+- Temperature Critical : above 80 degree C
+- Current Draw         : rated load plus or minus 10 percent
+- Pressure             : 160 to 180 PSI (normal)
+
+SECTION 2 - FAULT CODES
+Fault Code E-01: Motor Overheat
+  Cause: Insufficient cooling, overload, or blocked ventilation
+  Action: Stop motor immediately. Check cooling fan. Inspect ventilation slots.
+
+Fault Code E-10: Overload Detected
+  Cause: Mechanical jam, excessive load, or phase imbalance
+  Action: Reduce load. Check for mechanical obstructions. Inspect power supply phases.
+
+Fault Code E-47: Bearing Wear
+  Cause: Lubrication failure, contamination, or end of bearing life
+  Symptoms: High vibration above 5 mm/s combined with temperature above 80 degree C
+  Action: Lubricate bearing assembly. If vibration persists, replace bearing.
+
+Fault Code E-52: Belt Misalignment
+  Cause: Belt tension too loose or too tight, pulley misalignment
+  Symptoms: High vibration, unusual noise, uneven belt wear
+  Action: Check belt tension. Realign pulleys using alignment tool. Replace belt if worn.
+
+Fault Code E-63: Phase Imbalance
+  Cause: Unequal voltage across three phases
+  Symptoms: Motor overheating, excessive current draw, vibration
+  Action: Check incoming power supply. Contact electrician to balance phases.
+
+SECTION 3 - MAINTENANCE SCHEDULE
+- Daily   : Visual inspection, temperature check
+- Weekly  : Lubrication check, belt tension check
+- Monthly : Vibration measurement, current draw test
+- Yearly  : Full overhaul, bearing replacement if needed
+
+SECTION 4 - SAFETY WARNINGS
+- Always isolate power before maintenance
+- Use lockout tagout procedure
+- Minimum two technicians required for major overhaul
+- Do not operate motor above rated load for more than 5 minutes
