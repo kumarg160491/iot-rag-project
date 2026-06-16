@@ -47,17 +47,11 @@ Source Reference   : Document and page number used for the answer
 Key Learning Outcomes
 ======================
 End-to-end RAG pipeline implementation using LangChain
-
 Local LLM inference using Ollama (no cloud API required)
-
 Vector database setup and persistent storage with ChromaDB
-
 Document chunking strategies and metadata tagging
-
 Prompt engineering for structured diagnostic output
-
 Streamlit UI for interactive RAG applications
-
 Production-style project structure with centralised configuration
 
 Author
