@@ -6,7 +6,6 @@ A production-style Retrieval Augmented Generation (RAG) system that combines IoT
 Tech Stack
 =============
 Layer                               Tool
-==============================================================
 LLM                                 Llama 3.2 via Ollama
 Embeddings                          nomic-embed-text via Ollama
 Vector Database                     ChromaDB (local persistent)
@@ -14,7 +13,6 @@ RAG Framework                       LangChain
 UI                                  Streamlit
 Package Manager                     UV
 Language                            Python 3.12
-===============================================================
 
 Problem Statement
 ==================
@@ -23,70 +21,24 @@ In industrial environments, maintenance engineers spend significant time manuall
 
 This project automates that entire diagnostic chain. When a sensor anomaly is detected, the system retrieves relevant knowledge from its vector database and generates a structured diagnosis report with likely cause, risk level, recommended action, and source reference.
 
-Architecture
-===============
-
-User Query (Sensor Anomaly Description)
-         |
-         v
-  Streamlit UI (app.py)
-         |
-         v
-  OllamaEmbeddings (nomic-embed-text)
-  converts query to vector
-         |
-         v
-  ChromaDB Vector Store
-  retrieves top-k relevant chunks
-  from manuals, fault codes, maintenance logs
-         |
-         v
-  LangChain RetrievalQA Chain
-  injects retrieved context into prompt
-         |
-         v
-  Llama 3.2 (via Ollama)
-  generates structured diagnosis report
-         |
-         v
-  Diagnosis Report displayed in Streamlit
-  with source references
-
-Project Folder Structure:
-==========================
-
-iot-rag-project/
-│
-├── venv/                     # virtual environment
-├── data/
-│   ├── manuals/              # device PDF manuals
-│   ├── fault_codes/          # fault code CSVs or PDFs
-│   └── maintenance_logs/     # past maintenance log files
-│
-├── chroma_db/                # ChromaDB will persist data here
-│
-├── ingest.py                 # script to load docs → ChromaDB
-├── rag_chain.py              # LangChain RAG logic
-├── app.py                    # Streamlit UI
-└── requirements.txt
-
 Sample Queries
 ================
-Scenario                        Sample Query
+Scenario & Sample Query
 ==================================================
-Motor vibration fault           Motor-7 showing vibration 8.5 mm/s and temperature 88 degree 
+Motor vibration fault --- Motor-7 showing vibration 8.5 mm/s and temperature 88 degree 
                                 C with grinding noise. Diagnose.
-Compressor pressure             Compressor-3 output pressure dropped from 175 PSI to 118 
+Compressor pressure --- Compressor-3 output pressure dropped from 175 PSI to 118 
                                 PSI suddenly. What is the cause?
-Historical lookup               Has Motor-7 had any previous faults? What was the root 
+Historical lookup --- Has Motor-7 had any previous faults? What was the root 
                                 cause and resolution?
-Fault code lookup               What does fault code E-47 mean and what action should I take?
-Overload diagnosis              Motor-12 drawing 40 percent more current than rated load for 
+Fault code lookup --- What does fault code E-47 mean and what action should I take?
+Overload diagnosis --- Motor-12 drawing 40 percent more current than rated load for 
                                 15 minutes. What could be the cause?
 
 Diagnosis Report Format
 =======================
 For every query the system generates a structured response:
+
 Likely Cause       : Description of probable fault root cause
 Risk Level         : Low / Medium / High / Critical
 Recommended Action : Step by step corrective action
@@ -95,11 +47,17 @@ Source Reference   : Document and page number used for the answer
 Key Learning Outcomes
 ======================
 End-to-end RAG pipeline implementation using LangChain
+
 Local LLM inference using Ollama (no cloud API required)
+
 Vector database setup and persistent storage with ChromaDB
+
 Document chunking strategies and metadata tagging
+
 Prompt engineering for structured diagnostic output
+
 Streamlit UI for interactive RAG applications
+
 Production-style project structure with centralised configuration
 
 Author
