@@ -25,15 +25,11 @@ Sample Queries
 ================
 Scenario & Sample Query
 ==================================================
-Motor vibration fault --- Motor-7 showing vibration 8.5 mm/s and temperature 88 degree 
-                                C with grinding noise. Diagnose.
-Compressor pressure --- Compressor-3 output pressure dropped from 175 PSI to 118 
-                                PSI suddenly. What is the cause?
-Historical lookup --- Has Motor-7 had any previous faults? What was the root 
-                                cause and resolution?
+Motor vibration fault --- Motor-7 showing vibration 8.5 mm/s and temperature 88 degree C with grinding noise. Diagnose.
+Compressor pressure --- Compressor-3 output pressure dropped from 175 PSI to 118 PSI suddenly. What is the cause?
+Historical lookup --- Has Motor-7 had any previous faults? What was the root cause and resolution?
 Fault code lookup --- What does fault code E-47 mean and what action should I take?
-Overload diagnosis --- Motor-12 drawing 40 percent more current than rated load for 
-                                15 minutes. What could be the cause?
+Overload diagnosis --- Motor-12 drawing 40 percent more current than rated load for 15 minutes. What could be the cause?
 
 Diagnosis Report Format
 =======================
